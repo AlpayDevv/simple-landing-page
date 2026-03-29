@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: rgb(215, 218, 206);
+}
+
+/* Navigation */
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(241, 234, 225);
+  padding: 24px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.logo:hover {
+  color: rgb(163, 113, 47);
+}
+
+.sections {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  gap: 80px;
+}
+
+.sections a {
+  text-decoration: none;
+  color: rgb(24, 56, 24);
+  font-size: 20px;
+}
+
+.sections a:hover {
+  color: rgb(153, 224, 153);
+}
+
+.logo {
+  color: rgb(126, 60, 13);
+  padding: 20px;
+}
+
+/* Products */
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 18px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.products-header {
+  text-align: center;
+  margin: 64px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(243, 241, 241);
+  padding: 18px;
+  background-color: rgb(192, 204, 172);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  border-radius: 8px;
+}
+
+.product:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.product-img {
+  margin: 24px;
+}
+
+.product-header {
+  font-size: 24px;
+  margin: 24px;
+}
+
+.product-text {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+/* Pricing */
+
+.pricing {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 24px;
+}
+
+.pricing h3,
+.pricing p,
+.pricing button {
+  margin-bottom: 32px;
+}
+
+.pricing button {
+  margin-bottom: 0;
+  margin-top: 96px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(243, 241, 241);
+  padding: 64px 0 64px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  border-radius: 8px;
+}
+
+.box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.free {
+  background-color: rgb(233, 225, 225);
+}
+
+.pro {
+  background-color: rgb(236, 228, 218);
+}
+
+.premium {
+  background-color: rgb(221, 204, 236);
+}
+
+.price {
+  font-size: 48px;
+}
+
+.btn {
+  padding: 24px 40px;
+  border: none;
+  background-color: rgb(197, 108, 108);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 64px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(241, 234, 225);
+  padding: 48px;
+}
+.links a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  padding: 24px;
+}
+
+.copy {
+  font-size: 12px;
+}
