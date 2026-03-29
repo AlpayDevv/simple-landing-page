@@ -8,3 +8,7 @@ This is a basic landing page built using HTML and CSS.
 
 - ## 🔗 Live Demo
 - https://alpaydevv.github.io/simple-landing-page/ 
+
+## 📸 Preview
+
+![Landing Page Screenshot](assets/Landing-page.png)
